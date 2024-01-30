@@ -32,5 +32,5 @@ for key in data.keys():
 
 sorted_dict = dict(sorted(shop_list.items()))
 for item in sorted_dict.keys():
-    print(f'{item} - {sorted_dict[item]}')
+    print(f'- {item} - {sorted_dict[item]}')
         
