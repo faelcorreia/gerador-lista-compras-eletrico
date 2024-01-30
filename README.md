@@ -12,8 +12,8 @@ A partir do JSON de itens gera uma lista de compras. Útil para calcular o que �
     módulo coaxial (cinza) - 1
     módulo tomada (cinza) - 8
     módulo tomada (preto ônix) - 4
-    módulo variador de potência (cinza) - 1
-    módulo variador de potência (preto ônix) - 2
+    módulo variador rotativo ventilador (cinza) - 1
+    módulo variador rotativo ventilador (preto ônix) - 2
     placa 4x2 1 slot (cinza) - 1
     placa 4x2 2 slot (cinza) - 17
     placa 4x2 2 slot (preto ônix) - 5

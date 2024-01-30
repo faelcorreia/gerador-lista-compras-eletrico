@@ -32,7 +32,7 @@
             "slots": [
                 "interruptor",
                 "interruptor",
-                "módulo variador de potência"
+                "módulo variador rotativo ventilador"
             ]
         }
     ],
@@ -82,7 +82,7 @@
             "slots": [
                 "interruptor",
                 "interruptor",
-                "módulo variador de potência"
+                "módulo variador rotativo ventilador"
             ]
         }
     ],
@@ -136,7 +136,7 @@
             "slots": [
                 "interruptor",
                 "interruptor",
-                "módulo variador de potência"
+                "módulo variador rotativo ventilador"
             ]
         }
     ],
