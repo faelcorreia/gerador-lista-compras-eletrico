@@ -24,16 +24,6 @@
                 "interruptor",
                 "interruptor"
             ]
-        },
-        {
-            "descricao": "placa 4x2",
-            "quantidade": 1,
-            "cor": "cinza",
-            "slots": [
-                "interruptor",
-                "interruptor",
-                "módulo variador rotativo ventilador"
-            ]
         }
     ],
     "banheiro_cobertura": [
@@ -86,7 +76,34 @@
             ]
         }
     ],
-    "banheiro_social": [],
+    "banheiro_social": [
+        {
+            "descricao": "placa 4x2",
+            "quantidade": 1,
+            "cor": "cinza",
+            "slots": [
+                "interruptor",
+                "módulo cego"
+            ]
+        },
+        {
+            "descricao": "placa 4x2 furo chuveiro",
+            "quantidade": 1,
+            "cor": "cinza",
+            "slots": []
+        }
+    ],
+    "lavabo": [
+        {
+            "descricao": "placa 4x2",
+            "quantidade": 2,
+            "cor": "preto ônix",
+            "slots": [
+                "interruptor",
+                "módulo tomada"
+            ]
+        }
+    ],
     "quarto_centro": [
         {
             "descricao": "placa 4x4",
@@ -209,6 +226,17 @@
             "cor": "cinza",
             "slots": [
                 "módulo coaxial"
+            ]
+        }
+    ],
+    "hall": [
+        {
+            "descricao": "placa 4x2",
+            "quantidade": 2,
+            "cor": "cinza",
+            "slots": [
+                "interruptor",
+                "módulo cego"
             ]
         }
     ]
