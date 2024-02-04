@@ -5,15 +5,24 @@
             "quantidade": 4,
             "cor": "cinza",
             "slots": [
-                "módulo tomada",
-                "módulo tomada"
+                "módulo tomada 10A",
+                "módulo tomada 10A"
             ]
         },
         {
             "descricao": "placa 4x4",
-            "quantidade": 2,
+            "quantidade": 1,
             "cor": "cinza",
             "slots": []
+        },
+        {
+            "descricao": "placa 4x4",
+            "quantidade": 1,
+            "cor": "cinza",
+            "slots": [
+                "módulo cego",
+                "módulo cego"
+            ]
         },
         {
             "descricao": "placa 4x2",
@@ -28,10 +37,12 @@
     ],
     "banheiro_cobertura": [
         {
-            "descricao": "placa 4x2 furo chuveiro",
+            "descricao": "placa 4x2",
             "quantidade": 1,
             "cor": "cinza",
-            "slots": []
+            "slots": [
+                "módulo saída fio"
+            ]
         },
         {
             "descricao": "placa 4x2",
@@ -52,23 +63,32 @@
     "quarto_escritorio": [
         {
             "descricao": "placa 4x4",
-            "quantidade": 2,
-            "cor": "preto ônix",
+            "quantidade": 1,
+            "cor": "preto",
             "slots": []
         },
         {
-            "descricao": "placa 4x2",
+            "descricao": "placa 4x4",
             "quantidade": 1,
-            "cor": "preto ônix",
+            "cor": "preto",
             "slots": [
-                "módulo tomada",
-                "módulo tomada"
+                "módulo cego",
+                "módulo cego"
             ]
         },
         {
             "descricao": "placa 4x2",
             "quantidade": 1,
-            "cor": "preto ônix",
+            "cor": "preto",
+            "slots": [
+                "módulo tomada 10A",
+                "módulo tomada 10A"
+            ]
+        },
+        {
+            "descricao": "placa 4x2",
+            "quantidade": 1,
+            "cor": "preto",
             "slots": [
                 "interruptor",
                 "interruptor",
@@ -87,37 +107,51 @@
             ]
         },
         {
-            "descricao": "placa 4x2 furo chuveiro",
+            "descricao": "placa 4x2",
             "quantidade": 1,
             "cor": "cinza",
-            "slots": []
+            "slots": [
+                "módulo saída fio"
+            ]
         }
     ],
     "lavabo": [
         {
             "descricao": "placa 4x2",
             "quantidade": 2,
-            "cor": "preto ônix",
+            "cor": "preto",
             "slots": [
                 "interruptor",
-                "módulo tomada"
+                "módulo tomada 10A"
             ]
         }
     ],
     "quarto_centro": [
         {
             "descricao": "placa 4x4",
-            "quantidade": 2,
+            "quantidade": 1,
             "cor": "cinza",
-            "slots": []
+            "slots": [
+                "módulo cego",
+                "módulo cego"
+            ]
+        },
+        {
+            "descricao": "placa 4x4",
+            "quantidade": 1,
+            "cor": "cinza",
+            "slots": [
+                "módulo saída fio",
+                "módulo saída fio"
+            ]
         },
         {
             "descricao": "placa 4x2",
             "quantidade": 2,
             "cor": "cinza",
             "slots": [
-                "módulo tomada",
-                "módulo tomada"
+                "módulo tomada 10A",
+                "módulo tomada 10A"
             ]
         }
     ],
@@ -125,7 +159,7 @@
         {
             "descricao": "placa 4x2",
             "quantidade": 1,
-            "cor": "preto ônix",
+            "cor": "preto",
             "slots": [
                 "interruptor three way",
                 "módulo cego"
@@ -134,22 +168,22 @@
         {
             "descricao": "placa 4x2",
             "quantidade": 3,
-            "cor": "preto ônix",
+            "cor": "preto",
             "slots": [
-                "módulo tomada",
-                "módulo tomada"
+                "módulo tomada 10A",
+                "módulo tomada 10A"
             ]
         },
         {
             "descricao": "placa 4x4",
             "quantidade": 3,
-            "cor": "preto ônix",
+            "cor": "preto",
             "slots": []
         },
         {
             "descricao": "placa 4x2",
             "quantidade": 1,
-            "cor": "preto ônix",
+            "cor": "preto",
             "slots": [
                 "interruptor",
                 "interruptor",
@@ -168,10 +202,12 @@
             ]
         },
         {
-            "descricao": "placa 4x2 furo chuveiro",
+            "descricao": "placa 4x2",
             "quantidade": 1,
             "cor": "cinza",
-            "slots": []
+            "slots": [
+                "módulo saída fio"
+            ]
         }
     ],
     "cozinha": [
@@ -180,8 +216,8 @@
             "quantidade": 5,
             "cor": "cinza",
             "slots": [
-                "módulo tomada",
-                "módulo tomada"
+                "módulo tomada 10A",
+                "módulo tomada 10A"
             ]
         },
         {
@@ -190,7 +226,8 @@
             "cor": "cinza",
             "slots": [
                 "interruptor",
-                "interruptor"
+                "interruptor",
+                "módulo cego"
             ]
         }
     ],
@@ -200,8 +237,8 @@
             "quantidade": 3,
             "cor": "cinza",
             "slots": [
-                "módulo tomada",
-                "módulo tomada"
+                "módulo tomada 10A",
+                "módulo tomada 10A"
             ]
         },
         {
@@ -225,7 +262,8 @@
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
-                "módulo coaxial"
+                "módulo cego",
+                "módulo cego"
             ]
         }
     ],
@@ -235,7 +273,7 @@
             "quantidade": 2,
             "cor": "cinza",
             "slots": [
-                "interruptor",
+                "interruptor three way",
                 "módulo cego"
             ]
         }
