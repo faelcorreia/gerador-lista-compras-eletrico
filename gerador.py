@@ -18,18 +18,17 @@ for key in data.keys():
         total_slots = len(i["slots"])
         item = ""
         if total_slots == 0:
-            item = f'{i["descricao"]} cega ({i["cor"]})'
+            item = f'placa {i["placa"]} cega ({i["cor"]})'
         elif total_slots == 1:
-            item = f'{i["descricao"]} 1 sessão ({i["cor"]})'
+            item = f'placa {i["placa"]} 1 sessão ({i["cor"]})'
         elif total_slots == 2:
-            item = f'{i["descricao"]} {total_slots} sessões separadas ({i["cor"]})'
+            item = f'placa {i["placa"]} {total_slots} sessões separadas ({i["cor"]})'
         elif total_slots == 3:
-            item = f'{i["descricao"]} {total_slots} sessões ({i["cor"]})'
+            item = f'placa {i["placa"]} {total_slots} sessões ({i["cor"]})'
         else:
-            item = f'{i["descricao"]} ({i["cor"]})'
+            item = f'placa {i["placa"]} ({i["cor"]})'
         set_or_increase(item, i["quantidade"])
-        if "placa" in i["descricao"]:
-            set_or_increase(f'suporte {i["descricao"]}', i["quantidade"])
+        set_or_increase(f'suporte placa {i["placa"]}', i["quantidade"])
         for slot in i["slots"]:
             item = f'{slot} ({i["cor"]})'
             set_or_increase(item, 1)

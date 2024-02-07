@@ -1,7 +1,7 @@
 {
     "sala_cobertura": [
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 4,
             "cor": "cinza",
             "slots": [
@@ -10,13 +10,13 @@
             ]
         },
         {
-            "descricao": "placa 4x4",
+            "placa": "4x4",
             "quantidade": 1,
             "cor": "cinza",
             "slots": []
         },
         {
-            "descricao": "placa 4x4",
+            "placa": "4x4",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -25,7 +25,7 @@
             ]
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -37,7 +37,7 @@
     ],
     "banheiro_cobertura": [
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -45,13 +45,13 @@
             ]
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "cinza",
             "slots": []
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -62,13 +62,13 @@
     ],
     "quarto_escritorio": [
         {
-            "descricao": "placa 4x4",
+            "placa": "4x4",
             "quantidade": 1,
             "cor": "preto",
             "slots": []
         },
         {
-            "descricao": "placa 4x4",
+            "placa": "4x4",
             "quantidade": 1,
             "cor": "preto",
             "slots": [
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "preto",
             "slots": [
@@ -86,7 +86,7 @@
             ]
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "preto",
             "slots": [
@@ -98,7 +98,7 @@
     ],
     "banheiro_social": [
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -107,7 +107,7 @@
             ]
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -117,8 +117,8 @@
     ],
     "lavabo": [
         {
-            "descricao": "placa 4x2",
-            "quantidade": 2,
+            "placa": "4x2",
+            "quantidade": 1,
             "cor": "preto",
             "slots": [
                 "interruptor",
@@ -128,7 +128,7 @@
     ],
     "quarto_centro": [
         {
-            "descricao": "placa 4x4",
+            "placa": "4x4",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -137,7 +137,7 @@
             ]
         },
         {
-            "descricao": "placa 4x4",
+            "placa": "4x4",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -146,7 +146,7 @@
             ]
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 2,
             "cor": "cinza",
             "slots": [
@@ -157,7 +157,7 @@
     ],
     "quarto_suite": [
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "preto",
             "slots": [
@@ -166,8 +166,17 @@
             ]
         },
         {
-            "descricao": "placa 4x2",
-            "quantidade": 3,
+            "placa": "4x2",
+            "quantidade": 1,
+            "cor": "preto",
+            "slots": [
+                "módulo tomada 20A",
+                "módulo cego"
+            ]
+        },
+        {
+            "placa": "4x2",
+            "quantidade": 2,
             "cor": "preto",
             "slots": [
                 "módulo tomada 10A",
@@ -175,13 +184,22 @@
             ]
         },
         {
-            "descricao": "placa 4x4",
-            "quantidade": 3,
+            "placa": "4x4",
+            "quantidade": 1,
+            "cor": "preto",
+            "slots": [
+                "módulo cego",
+                "módulo cego"
+            ]
+        },
+        {
+            "placa": "4x4",
+            "quantidade": 2,
             "cor": "preto",
             "slots": []
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "preto",
             "slots": [
@@ -193,16 +211,16 @@
     ],
     "banheiro_suite": [
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
                 "interruptor",
-                "módulo cego"
+                "módulo tomada 20A"
             ]
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -212,8 +230,17 @@
     ],
     "cozinha": [
         {
-            "descricao": "placa 4x2",
-            "quantidade": 5,
+            "placa": "4x2",
+            "quantidade": 1,
+            "cor": "cinza",
+            "slots": [
+                "módulo tomada 20A",
+                "módulo cego"
+            ]
+        },
+        {
+            "placa": "4x2",
+            "quantidade": 4,
             "cor": "cinza",
             "slots": [
                 "módulo tomada 10A",
@@ -221,7 +248,7 @@
             ]
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -233,8 +260,17 @@
     ],
     "sala": [
         {
-            "descricao": "placa 4x2",
-            "quantidade": 3,
+            "placa": "4x2",
+            "quantidade": 1,
+            "cor": "cinza",
+            "slots": [
+                "módulo tomada 20A",
+                "módulo cego"
+            ]
+        },
+        {
+            "placa": "4x2",
+            "quantidade": 2,
             "cor": "cinza",
             "slots": [
                 "módulo tomada 10A",
@@ -242,7 +278,7 @@
             ]
         },
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -252,13 +288,13 @@
             ]
         },
         {
-            "descricao": "placa 4x4",
+            "placa": "4x4",
             "quantidade": 1,
             "cor": "cinza",
             "slots": []
         },
         {
-            "descricao": "placa 4x4",
+            "placa": "4x4",
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
@@ -269,7 +305,7 @@
     ],
     "hall": [
         {
-            "descricao": "placa 4x2",
+            "placa": "4x2",
             "quantidade": 2,
             "cor": "cinza",
             "slots": [
