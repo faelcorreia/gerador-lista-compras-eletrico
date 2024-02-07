@@ -29,9 +29,9 @@
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
-                "interruptor",
-                "interruptor",
-                "interruptor"
+                "interruptor simples",
+                "interruptor simples",
+                "interruptor simples"
             ]
         }
     ],
@@ -55,7 +55,7 @@
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
-                "interruptor",
+                "interruptor simples",
                 "módulo cego"
             ]
         }
@@ -90,8 +90,8 @@
             "quantidade": 1,
             "cor": "preto",
             "slots": [
-                "interruptor",
-                "interruptor",
+                "interruptor simples",
+                "interruptor simples",
                 "módulo variador rotativo ventilador"
             ]
         }
@@ -102,7 +102,7 @@
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
-                "interruptor",
+                "interruptor simples",
                 "módulo cego"
             ]
         },
@@ -121,7 +121,7 @@
             "quantidade": 1,
             "cor": "preto",
             "slots": [
-                "interruptor",
+                "interruptor simples",
                 "módulo tomada 10A"
             ]
         }
@@ -161,7 +161,7 @@
             "quantidade": 1,
             "cor": "preto",
             "slots": [
-                "interruptor three way",
+                "interruptor paralelo",
                 "módulo cego"
             ]
         },
@@ -203,8 +203,8 @@
             "quantidade": 1,
             "cor": "preto",
             "slots": [
-                "interruptor",
-                "interruptor",
+                "interruptor simples",
+                "interruptor simples",
                 "módulo variador rotativo ventilador"
             ]
         }
@@ -215,7 +215,7 @@
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
-                "interruptor",
+                "interruptor simples",
                 "módulo tomada 20A"
             ]
         },
@@ -252,8 +252,8 @@
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
-                "interruptor",
-                "interruptor",
+                "interruptor simples",
+                "interruptor simples",
                 "módulo cego"
             ]
         }
@@ -282,9 +282,9 @@
             "quantidade": 1,
             "cor": "cinza",
             "slots": [
-                "interruptor",
-                "interruptor",
-                "interruptor"
+                "interruptor simples",
+                "interruptor simples",
+                "interruptor simples"
             ]
         },
         {
@@ -309,7 +309,7 @@
             "quantidade": 2,
             "cor": "cinza",
             "slots": [
-                "interruptor three way",
+                "interruptor paralelo",
                 "módulo cego"
             ]
         }
