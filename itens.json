@@ -240,7 +240,7 @@
         },
         {
             "placa": "4x2",
-            "quantidade": 4,
+            "quantidade": 5,
             "cor": "cinza",
             "slots": [
                 "módulo tomada 10A",
@@ -306,7 +306,7 @@
     "hall": [
         {
             "placa": "4x2",
-            "quantidade": 2,
+            "quantidade": 1,
             "cor": "cinza",
             "slots": [
                 "interruptor paralelo",

@@ -16,22 +16,22 @@ for key in data.keys():
     room = data[key]
     for i in room:
         total_slots = len(i["slots"])
-        item = ""
+        placa = ""
         if total_slots == 0:
-            item = f'placa {i["placa"]} cega ({i["cor"]})'
+            placa = f'placa {i["placa"]} cega ({i["cor"]})'
         elif total_slots == 1:
-            item = f'placa {i["placa"]} 1 seção ({i["cor"]})'
+            placa = f'placa {i["placa"]} 1 seção ({i["cor"]})'
         elif total_slots == 2:
-            item = f'placa {i["placa"]} {total_slots} seções separadas ({i["cor"]})'
+            placa = f'placa {i["placa"]} {total_slots} seções separadas ({i["cor"]})'
         elif total_slots == 3:
-            item = f'placa {i["placa"]} {total_slots} seções ({i["cor"]})'
+            placa = f'placa {i["placa"]} {total_slots} seções ({i["cor"]})'
         else:
-            item = f'placa {i["placa"]} ({i["cor"]})'
-        set_or_increase(item, i["quantidade"])
+            placa = f'placa {i["placa"]} ({i["cor"]})'
+        set_or_increase(placa, i["quantidade"])
         set_or_increase(f'suporte placa {i["placa"]}', i["quantidade"])
         for slot in i["slots"]:
             item = f'{slot} ({i["cor"]})'
-            set_or_increase(item, 1)
+            set_or_increase(item, i["quantidade"])
 
 sorted_dict = dict(sorted(shop_list.items()))
 for item in sorted_dict.keys():
